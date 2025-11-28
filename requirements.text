@@ -1,0 +1,6 @@
+streamlit 
+pyttsx3 
+gTTS 
+requests 
+python-dotenv 
+regex
