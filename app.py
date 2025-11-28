@@ -6,7 +6,7 @@ import PyPDF2
 from src.ai_module import get_mistral_response
 
 # --- 1. Page & CSS Configuration ---
-st.set_page_config(page_title="DocuVoice AI", layout="wide", page_icon="🎙️")
+st.set_page_config(page_title="SpeakSense AI", layout="wide", page_icon="🎙️")
 
 # Custom CSS for WhatsApp-style Chat
 st.markdown("""
@@ -161,3 +161,4 @@ with tab2:
             response_text = get_mistral_response(user_prompt, api_key)
             st.session_state.messages[-1]["content"] = response_text
             st.rerun()
+
