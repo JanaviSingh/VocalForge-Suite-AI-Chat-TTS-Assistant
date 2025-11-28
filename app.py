@@ -66,7 +66,7 @@ def get_tld(lang_code):
 
 # --- 3. Sidebar & Settings ---
 st.sidebar.header("⚙️ Configuration")
-api_key = "TmwqQXMqrJHMjInxDV7DYxq1lR4hIMSY"
+api_key = "XXXX"
 
 # Cloud-Friendly Voice Options (Accents)
 voice_options = {
@@ -161,4 +161,5 @@ with tab2:
             response_text = get_mistral_response(user_prompt, api_key)
             st.session_state.messages[-1]["content"] = response_text
             st.rerun()
+
 
