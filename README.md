@@ -1,8 +1,8 @@
-# 🎙️ SpeakSense AI: Cloud-Native Chat & TTS
+# 🎙️ SpeakSense AI: Chat & TTS
 
 ## 📌 Overview
 
-**SpeakSense AI** is a robust technical assignment submission that integrates **Cloud-Based Text-to-Speech (TTS)** and **Generative AI (Mistral API)** into a unified web application.
+**SpeakSense AI** is a robust technical assignment submission that integrates **Text-to-Speech (TTS)** and **Generative AI (Mistral API)** into a unified web application.
 
 Designed for seamless experience on **Streamlit Cloud**, this application features a "WhatsApp-style" chat interface, PDF document reading, and multi-accent speech synthesis without requiring local system audio drivers.
 
